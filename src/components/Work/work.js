@@ -50,6 +50,8 @@ export default class Header extends Component {
           •	Collected data by surveying people in the downtown Charlotte area.
           •	Competed against 10+ teams and judged by representatives of the city of Charlotte at the end of the project.
 
+          </p>
+
         </div>
       </div> {/* item end */}
     </div> {/* main-col end */}
