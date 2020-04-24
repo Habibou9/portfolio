@@ -37,6 +37,7 @@ export default class Header extends Component {
           <p className="info">Class project <span>•</span> <em className="date">July 2018 – December 2018</em></p>
           <p>
           •	Produced a shopping website to buy and exchange items. Also, implemented a store cart system that manages purchases that are not occurring between users. (Node.js/Express.js/MongoDB).
+          </p>
         </div>
       </div> {/* item end */}
       <div className="row item">
@@ -137,7 +138,7 @@ export default class Header extends Component {
               </a>
             </div>
           </div> {/* item end */}
-        
+
         </div> {/* portfolio-wrapper end */}
       </div> {/* twelve columns end */}
       {/* Modal Popup
