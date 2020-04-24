@@ -10,28 +10,26 @@ export default class Header extends Component {
     </div>
     <div className="nine columns main-col">
       <h2>About Me</h2>
-      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-        eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
-        voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
-        voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
-        sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
-        Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.
+      <p>Goal-oriented Software Developer with strong commitment to collaboration and solutions-oriented problem-solving.
+       Use various web design software to develop customer-focused websites and designs.
+       Committed to high standards of web design, user experience, usability and speed for multiple types of end-users.
+       Successful at maintaining customer satisfaction through effective customer support.
       </p>
       <div className="row">
         <div className="columns contact-details">
           <h2>Contact Details</h2>
           <p className="address">
-            <span>Jonathan Doe</span><br />
-            <span>1600 Amphitheatre Parkway<br />
-              Mountain View, CA 94043 US
+            <span>Habibou Maizoumbou Dan Aouta</span><br />
+            <span>3140 Patrick Henry dr Nw<br />
+            Concord, NC 28027 US
             </span><br />
-            <span>(123)456-7890</span><br />
-            <span>anyone@website.com</span>
+            <span>(336)427-6209</span><br />
+            <span>danaoutah@yahoo.com</span>
           </p>
         </div>
         <div className="columns download">
           <p>
-            <a href="#" className="button"><i className="fa fa-download" />Download Resume</a>
+            <a href="Habibou New Resume" className="button"><i className="fa fa-download" />Download Resume</a>
           </p>
         </div>
       </div> {/* end row */}

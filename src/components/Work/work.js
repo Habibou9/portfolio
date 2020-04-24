@@ -13,26 +13,42 @@ export default class Header extends Component {
     <div className="nine columns main-col">
       <div className="row item">
         <div className="twelve columns">
-          <h3>Awesome Design Studio</h3>
-          <p className="info">Senior UX Designer <span>•</span> <em className="date">March 2010 - Present</em></p>
+          <h3>MakeMeHealthy Project</h3>
+          <p className="info">Class Project <span>•</span> <em className="date">June 2019 – July 2019</em></p>
           <p>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-            Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
-            ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-            Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. Nullam dictum felis eu pede mollis pretium.
+          •	Developed an app using Python and Django utilizing recommender system to gather user’s information and recommend new recipes based on their taste and ingredients of their choosing.
+          •	Implemented an algorithm to find ingredients that are relevant to the user in order to optimize the quality of the app.
+
           </p>
         </div>
       </div> {/* item end */}
       <div className="row item">
         <div className="twelve columns">
-          <h3>Super Cool Studio</h3>
-          <p className="info">UX Designer <span>•</span> <em className="date">March 2007 - February 2010</em></p>
+          <h3>Meal Share Capstone</h3>
+          <p className="info">Class project <span>•</span> <em className="date">February 2019 – May 2019</em></p>
           <p>
-            This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-            Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
-            nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan
-            ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat
+            •	Developed an app used to connect businesses such as grocery stores with food care centers in order to reduce food waste in the U.S. (Frameworks: Node.js & Express.js).
           </p>
+        </div>
+      </div> {/* item end */}
+      <div className="row item">
+        <div className="twelve columns">
+          <h3>Shoe Store</h3>
+          <p className="info">Class project <span>•</span> <em className="date">July 2018 – December 2018</em></p>
+          <p>
+          •	Produced a shopping website to buy and exchange items. Also, implemented a store cart system that manages purchases that are not occurring between users. (Node.js/Express.js/MongoDB).
+        </div>
+      </div> {/* item end */}
+      <div className="row item">
+        <div className="twelve columns">
+          <h3>My Charlotte App</h3>
+          <p className="info">Class project <span>•</span> <em className="date">February 2018 – May 2018</em></p>
+          <p>
+          •	Assisted a team in redesigning the MyCharlotte app, incorporating user experience design techniques.
+          •	Implemented wireframes with user stories for the MyCharlotte app project.
+          •	Collected data by surveying people in the downtown Charlotte area.
+          •	Competed against 10+ teams and judged by representatives of the city of Charlotte at the end of the project.
+
         </div>
       </div> {/* item end */}
     </div> {/* main-col end */}
@@ -44,19 +60,28 @@ export default class Header extends Component {
       <h1><span>Skills</span></h1>
     </div>
     <div className="nine columns main-col">
-      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-        eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
-        voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
-        voluptatem sequi nesciunt.
+      <p>
+      List of My Skills:
       </p>
       <div className="bars">
         <ul className="skills">
-          <li><span className="bar-expand photoshop" /><em>Photoshop</em></li>
-          <li><span className="bar-expand illustrator" /><em>Illustrator</em></li>
-          <li><span className="bar-expand wordpress" /><em>Wordpress</em></li>
+          <li><span className="bar-expand photoshop" /><em>React.js</em></li>
+          <li><span className="bar-expand jquery" /><em>Babel</em></li>
+          <li><span className="bar-expand html5" /><em>Node.js</em></li>
+          <li><span className="bar-expand photoshop" /><em>Express.js</em></li>
+          <li><span className="bar-expand jquery" /><em>JavaScript</em></li>
+          <li><span className="bar-expand illustrator" /><em>Django.js</em></li>
+          <li><span className="bar-expand html5" /><em>Java</em></li>
+          <li><span className="bar-expand wordpress" /><em>Python</em></li>
+          <li><span className="bar-expand photoshop" /><em>SQL/NoSQL</em></li>
           <li><span className="bar-expand css" /><em>CSS</em></li>
           <li><span className="bar-expand html5" /><em>HTML5</em></li>
           <li><span className="bar-expand jquery" /><em>jQuery</em></li>
+          <li><span className="bar-expand html5" /><em>Linux</em></li>
+          <li><span className="bar-expand photoshop" /><em>UI/UX design</em></li>
+          <li><span className="bar-expand lang" /><em>French</em></li>
+          <li><span className="bar-expand lang" /><em>English</em></li>
+          <li><span className="bar-expand lang" /><em>Spanish</em></li>
         </ul>
       </div>{/* end skill-bars */}
     </div> {/* main-col end */}
@@ -73,11 +98,11 @@ export default class Header extends Component {
           <div className="columns portfolio-item">
             <div className="item-wrap">
               <a href="#modal-01" title>
-                <img alt="" src="images/portfolio/coffee.jpg" />
+                <img alt="" src="images/portfolio/MakeMeHealthy" />
                 <div className="overlay">
                   <div className="portfolio-item-meta">
-                    <h5>Coffee</h5>
-                    <p>Illustrration</p>
+                    <h5>MakeMeHealthy App</h5>
+                    <p>Web Development</p>
                   </div>
                 </div>
                 <div className="link-icon"><i className="icon-plus" /></div>
@@ -87,10 +112,10 @@ export default class Header extends Component {
           <div className="columns portfolio-item">
             <div className="item-wrap">
               <a href="#modal-02" title>
-                <img alt="" src="images/portfolio/console.jpg" />
+                <img alt="" src="images/portfolio/MealShare" />
                 <div className="overlay">
                   <div className="portfolio-item-meta">
-                    <h5>Console</h5>
+                    <h5>Meal Share App</h5>
                     <p>Web Development</p>
                   </div>
                 </div>
@@ -101,87 +126,18 @@ export default class Header extends Component {
           <div className="columns portfolio-item">
             <div className="item-wrap">
               <a href="#modal-03" title>
-                <img alt="" src="images/portfolio/judah.jpg" />
+                <img alt="" src="images/portfolio/ShoeStore" />
                 <div className="overlay">
                   <div className="portfolio-item-meta">
-                    <h5>Judah</h5>
-                    <p>Webdesign</p>
-                  </div>
-                </div>
-                <div className="link-icon"><i className="icon-plus" /></div>
-              </a>
-            </div>
-          </div> {/* item end */}
-          <div className="columns portfolio-item">
-            <div className="item-wrap">
-              <a href="#modal-04" title>
-                <img alt="" src="images/portfolio/into-the-light.jpg" />
-                <div className="overlay">
-                  <div className="portfolio-item-meta">
-                    <h5>Into The Light</h5>
-                    <p>Photography</p>
-                  </div>
-                </div>
-                <div className="link-icon"><i className="icon-plus" /></div>
-              </a>
-            </div>
-          </div> {/* item end */}
-          <div className="columns portfolio-item">
-            <div className="item-wrap">
-              <a href="#modal-05" title>
-                <img alt="" src="images/portfolio/farmerboy.jpg" />
-                <div className="overlay">
-                  <div className="portfolio-item-meta">
-                    <h5>Farmer Boy</h5>
-                    <p>Branding</p>
-                  </div>
-                </div>
-                <div className="link-icon"><i className="icon-plus" /></div>
-              </a>
-            </div>
-          </div> {/* item end */}
-          <div className="columns portfolio-item">
-            <div className="item-wrap">
-              <a href="#modal-06" title>
-                <img alt="" src="images/portfolio/girl.jpg" />
-                <div className="overlay">
-                  <div className="portfolio-item-meta">
-                    <h5>Girl</h5>
-                    <p>Photography</p>
-                  </div>
-                </div>
-                <div className="link-icon"><i className="icon-plus" /></div>
-              </a>
-            </div>
-          </div> {/* item end */}
-          <div className="columns portfolio-item">
-            <div className="item-wrap">
-              <a href="#modal-07" title>
-                <img alt="" src="images/portfolio/origami.jpg" />
-                <div className="overlay">
-                  <div className="portfolio-item-meta">
-                    <h5>Origami</h5>
-                    <p>Illustrration</p>
-                  </div>
-                </div>
-                <div className="link-icon"><i className="icon-plus" /></div>
-              </a>
-            </div>
-          </div> {/* item end */}
-          <div className="columns portfolio-item">
-            <div className="item-wrap">
-              <a href="#modal-08" title>
-                <img alt="" src="images/portfolio/retrocam.jpg" />
-                <div className="overlay">
-                  <div className="portfolio-item-meta">
-                    <h5>Retrocam</h5>
+                    <h5>ShoeStore App</h5>
                     <p>Web Development</p>
                   </div>
                 </div>
                 <div className="link-icon"><i className="icon-plus" /></div>
               </a>
             </div>
-          </div>  {/* item end */}
+          </div> {/* item end */}
+        
         </div> {/* portfolio-wrapper end */}
       </div> {/* twelve columns end */}
       {/* Modal Popup

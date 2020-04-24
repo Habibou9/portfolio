@@ -13,25 +13,23 @@ export default class Header extends Component {
     <div className="nine columns main-col">
       <div className="row item">
         <div className="twelve columns">
-          <h3>University of Life</h3>
-          <p className="info">Master in Graphic Design <span>•</span> <em className="date">April 2007</em></p>
+          <h3>University of North Carolina At Charlotte </h3>
+          <p className="info">Master of Science: Computer Science - Information Security and Privacy <span>•</span> <em className="date">December 2020</em></p>
           <p>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-            Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
-            ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-            Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. Nullam dictum felis eu pede mollis pretium.
+            •	GPA:3.5/4.0
+            •	Honors: Dean's List Fall 2019
+
           </p>
         </div>
       </div> {/* item end */}
       <div className="row item">
         <div className="twelve columns">
-          <h3>School of Cool Designers</h3>
-          <p className="info">B.A. Degree in Graphic Design <span>•</span> <em className="date">March 2003</em></p>
+          <h3>University of North Carolina At Charlotte</h3>
+          <p className="info">Bachelor of Science: Computer Science - Software Engineering <span>•</span> <em className="date">May 2019</em></p>
           <p>
-            This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-            Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
-            nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan
-            ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat
+              •	GPA:3.12/4.0
+              •	Honors: Dean's List Fall 2018 & Chancellor’s List Spring 2019
+              •	Member of The National Society of Leadership and Success
           </p>
         </div>
       </div> {/* item end */}

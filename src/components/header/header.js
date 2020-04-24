@@ -20,8 +20,8 @@ export default class Header extends Component {
     <div className="row banner">
       <div className="banner-text">
         <h1 className="responsive-headline">I'm Habibou Maizoumbou Dan Aouta.</h1>
-        <h3>I'm a Charlotte,NC based <span>Developper</span>, <span>UI/UX designer</span> and <span>Security Engineer(CyberSecurity) </span> Use various web design software to develop customer-focused websites and designs.
-        Committed to high standards of web design, user experience, usability and speed for multiple types of end-users. 
+        <h3>I'm a Charlotte,NC based <span>Developper</span>, <span>UI/UX designer</span> and <span>Security Engineer(CyberSecurity) </span>. I  Use various web design software to develop customer-focused websites and designs.
+        Committed to high standards of web design, user experience, usability and speed for multiple types of end-users.
         Successful at maintaining customer satisfaction through effective customer support.  Let's <a className="smoothscroll" href="#about">start scrolling</a>
           and learn more <a className="smoothscroll" href="#about">about me</a>.</h3>
         <hr />
