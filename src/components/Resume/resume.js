@@ -17,8 +17,9 @@ export default class Header extends Component {
           <p className="info">Master of Science: Computer Science - Information Security and Privacy <span>•</span> <em className="date">December 2020</em></p>
           <p>
             •	GPA:3.5/4.0
+          </p>
+          <p>
             •	Honors: Dean's List Fall 2019
-
           </p>
         </div>
       </div> {/* item end */}
@@ -29,6 +30,14 @@ export default class Header extends Component {
           <p>
               •	GPA:3.12/4.0
               •	Honors: Dean's List Fall 2018 & Chancellor’s List Spring 2019
+              •	Member of The National Society of Leadership and Success
+          </p>
+          <p>
+
+              •	Honors: Dean's List Fall 2018 & Chancellor’s List Spring 2019
+
+          </p>
+          <p>
               •	Member of The National Society of Leadership and Success
           </p>
         </div>

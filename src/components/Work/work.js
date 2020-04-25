@@ -84,7 +84,7 @@ export default class Header extends Component {
           <li><span className="bar-expand photoshop" /><em>UI/UX design</em></li>
           <li><span className="bar-expand lang" /><em>French</em></li>
           <li><span className="bar-expand lang" /><em>English</em></li>
-          <li><span className="bar-expand lang" /><em>Spanish</em></li>
+          <li><span className="bar-expand jquery" /><em>Spanish</em></li>
         </ul>
       </div>{/* end skill-bars */}
     </div> {/* main-col end */}
@@ -101,7 +101,7 @@ export default class Header extends Component {
           <div className="columns portfolio-item">
             <div className="item-wrap">
               <a href="#modal-01" title>
-                <img alt="" src="images/portfolio/MakeMeHealthy" />
+                <img alt="" src="images/portfolio/MakeMeHealthy.png" />
                 <div className="overlay">
                   <div className="portfolio-item-meta">
                     <h5>MakeMeHealthy App</h5>
@@ -115,7 +115,7 @@ export default class Header extends Component {
           <div className="columns portfolio-item">
             <div className="item-wrap">
               <a href="#modal-02" title>
-                <img alt="" src="images/portfolio/MealShare" />
+                <img alt="" src="images/portfolio/MealShare.png" />
                 <div className="overlay">
                   <div className="portfolio-item-meta">
                     <h5>Meal Share App</h5>
@@ -129,7 +129,7 @@ export default class Header extends Component {
           <div className="columns portfolio-item">
             <div className="item-wrap">
               <a href="#modal-03" title>
-                <img alt="" src="images/portfolio/ShoeStore" />
+                <img alt="" src="images/portfolio/ShoeStore.png" />
                 <div className="overlay">
                   <div className="portfolio-item-meta">
                     <h5>ShoeStore App</h5>
@@ -148,99 +148,43 @@ export default class Header extends Component {
       <div id="modal-01" className="popup-modal mfp-hide">
         <img className="scale-with-grid" src="images/portfolio/modals/m-coffee.jpg" alt="" />
         <div className="description-box">
-          <h4>Coffee Cup</h4>
-          <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-          <span className="categories"><i className="fa fa-tag" />Branding, Webdesign</span>
+          <h4>MakeMeHealthy App</h4>
+          <p>The MakeMeHealthy app goal is to help users try new recipes.
+          Therefore a new user will be asked a few questions such as taste and favorite ingredients so the app can pick specific recipes depending on the user taste.</p>
+          <span className="categories"><i className="fa fa-tag" />Web app</span>
         </div>
         <div className="link-box">
-          <a href="http://www.behance.net">Details</a>
+          <a href="https://github.com/malcolmrjones/PiqueRecipe.git">Github</a>
           <a className="popup-modal-dismiss">Close</a>
         </div>
       </div>{/* modal-01 End */}
       <div id="modal-02" className="popup-modal mfp-hide">
         <img className="scale-with-grid" src="images/portfolio/modals/m-console.jpg" alt="" />
         <div className="description-box">
-          <h4>Console</h4>
-          <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-          <span className="categories"><i className="fa fa-tag" />Branding, Web Development</span>
+          <h4>MealShare</h4>
+          <p>This app Goal is to help People in need of Food to get Connected with Kitchen Soup, Grocerie Stores, Restaurents and Fast Foods.
+          Also, this app purpose is to help reduce food waste as well.
+          </p>
+          <span className="categories"><i className="fa fa-tag" />Web Development</span>
         </div>
         <div className="link-box">
-          <a href="http://www.behance.net">Details</a>
+          <a href="https://cloud.indigo.design/share/run/hgzf1qpqw2gq#f=homepage">Prototype</a>
+          <a href="https://github.com/marsgs/MealShare.git"> Github </a>
           <a className="popup-modal-dismiss">Close</a>
         </div>
       </div>{/* modal-02 End */}
       <div id="modal-03" className="popup-modal mfp-hide">
         <img className="scale-with-grid" src="images/portfolio/modals/m-judah.jpg" alt="" />
         <div className="description-box">
-          <h4>Judah</h4>
-          <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-          <span className="categories"><i className="fa fa-tag" />Branding</span>
+          <h4>ShoeStore</h4>
+          <p>This Shopping app allows user to buy shoes but mainly exhange shoes between users.</p>
+          <span className="categories"><i className="fa fa-tag" />Web Development</span>
         </div>
         <div className="link-box">
-          <a href="http://www.behance.net">Details</a>
+          <a href="https://github.com/Habibou9/ShoppingWebsite.git">Github</a>
           <a className="popup-modal-dismiss">Close</a>
         </div>
       </div>{/* modal-03 End */}
-      <div id="modal-04" className="popup-modal mfp-hide">
-        <img className="scale-with-grid" src="images/portfolio/modals/m-intothelight.jpg" alt="" />
-        <div className="description-box">
-          <h4>Into the Light</h4>
-          <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-          <span className="categories"><i className="fa fa-tag" />Photography</span>
-        </div>
-        <div className="link-box">
-          <a href="http://www.behance.net">Details</a>
-          <a className="popup-modal-dismiss">Close</a>
-        </div>
-      </div>{/* modal-04 End */}
-      <div id="modal-05" className="popup-modal mfp-hide">
-        <img className="scale-with-grid" src="images/portfolio/modals/m-farmerboy.jpg" alt="" />
-        <div className="description-box">
-          <h4>Farmer Boy</h4>
-          <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-          <span className="categories"><i className="fa fa-tag" />Branding, Webdesign</span>
-        </div>
-        <div className="link-box">
-          <a href="http://www.behance.net">Details</a>
-          <a className="popup-modal-dismiss">Close</a>
-        </div>
-      </div>{/* modal-05 End */}
-      <div id="modal-06" className="popup-modal mfp-hide">
-        <img className="scale-with-grid" src="images/portfolio/modals/m-girl.jpg" alt="" />
-        <div className="description-box">
-          <h4>Girl</h4>
-          <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-          <span className="categories"><i className="fa fa-tag" />Photography</span>
-        </div>
-        <div className="link-box">
-          <a href="http://www.behance.net">Details</a>
-          <a className="popup-modal-dismiss">Close</a>
-        </div>
-      </div>{/* modal-06 End */}
-      <div id="modal-07" className="popup-modal mfp-hide">
-        <img className="scale-with-grid" src="images/portfolio/modals/m-origami.jpg" alt="" />
-        <div className="description-box">
-          <h4>Origami</h4>
-          <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-          <span className="categories"><i className="fa fa-tag" />Branding, Illustration</span>
-        </div>
-        <div className="link-box">
-          <a href="http://www.behance.net">Details</a>
-          <a className="popup-modal-dismiss">Close</a>
-        </div>
-      </div>{/* modal-07 End */}
-      <div id="modal-08" className="popup-modal mfp-hide">
-        <img className="scale-with-grid" src="images/portfolio/modals/m-retrocam.jpg" alt="" />
-        <div className="description-box">
-          <h4>Retrocam</h4>
-          <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-          <span className="categories"><i className="fa fa-tag" />Webdesign, Photography</span>
-        </div>
-        <div className="link-box">
-          <a href="http://www.behance.net">Details</a>
-          <a className="popup-modal-dismiss">Close</a>
-        </div>
-      </div>{/* modal-01 End */}
     </div> {/* row End */}
   </section> {/* Portfolio Section End*/}
 </div>

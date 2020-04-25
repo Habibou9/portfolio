@@ -20,19 +20,19 @@ export default class Header extends Component {
     <div className="row banner">
       <div className="banner-text">
         <h1 className="responsive-headline">I'm Habibou Maizoumbou Dan Aouta.</h1>
-        <h3>I'm a Charlotte,NC based <span>Developper</span>, <span>UI/UX designer</span> and <span>Security Engineer(CyberSecurity) </span>. I  Use various web design software to develop customer-focused websites and designs.
-        Committed to high standards of web design, user experience, usability and speed for multiple types of end-users.
-        Successful at maintaining customer satisfaction through effective customer support.  Let's <a className="smoothscroll" href="#about">start scrolling</a>
+        <h3>I'm a Charlotte,NC based <span>Developper</span>, <span>UI/UX designer</span> and
+         <span>Security Engineer(CyberSecurity) </span>.
+          Let's <a className="smoothscroll" href="#about">start scrolling</a>
           and learn more <a className="smoothscroll" href="#about">about me</a>.</h3>
         <hr />
         <ul className="social">
           <li><a href="#"><i className="fa fa-facebook" /></a></li>
           <li><a href="#"><i className="fa fa-twitter" /></a></li>
           <li><a href="#"><i className="fa fa-google-plus" /></a></li>
-          <li><a href="#"><i className="fa fa-linkedin" /></a></li>
+          <li><a href="https://www.linkedin.com/in/habibou"><i className="fa fa-linkedin" /></a></li>
           <li><a href="#"><i className="fa fa-instagram" /></a></li>
           <li><a href="#"><i className="fa fa-dribbble" /></a></li>
-          <li><a href="#"><i className="fa fa-skype" /></a></li>
+          <li><a type="text/javascript" href="http://cdn.dev.skype.com/uri/skype-uri.js"><i className="fa fa-skype" /></a></li>
         </ul>
       </div>
     </div>

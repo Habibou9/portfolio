@@ -29,7 +29,7 @@ export default class Header extends Component {
         </div>
         <div className="columns download">
           <p>
-            <a href="Habibou New Resume" className="button"><i className="fa fa-download" />Download Resume</a>
+            <a href="Habibou New Resume.docx" className="button"><i className="fa fa-download" />Download Resume</a>
           </p>
         </div>
       </div> {/* end row */}
