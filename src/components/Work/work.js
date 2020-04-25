@@ -146,7 +146,7 @@ export default class Header extends Component {
       {/* Modal Popup
 	      --------------------------------------------------------------- */}
       <div id="modal-01" className="popup-modal mfp-hide">
-        <img className="scale-with-grid" src="images/portfolio/modals/m-coffee.jpg" alt="" />
+        <img className="scale-with-grid" src="images/portfolio/MakeMeHealthy.png" alt="" />
         <div className="description-box">
           <h4>MakeMeHealthy App</h4>
           <p>The MakeMeHealthy app goal is to help users try new recipes.
@@ -159,7 +159,7 @@ export default class Header extends Component {
         </div>
       </div>{/* modal-01 End */}
       <div id="modal-02" className="popup-modal mfp-hide">
-        <img className="scale-with-grid" src="images/portfolio/modals/m-console.jpg" alt="" />
+        <img className="scale-with-grid" src="images/portfolio/MealShare.png" alt="" />
         <div className="description-box">
           <h4>MealShare</h4>
           <p>This app Goal is to help People in need of Food to get Connected with Kitchen Soup, Grocerie Stores, Restaurents and Fast Foods.
@@ -169,12 +169,12 @@ export default class Header extends Component {
         </div>
         <div className="link-box">
           <a href="https://cloud.indigo.design/share/run/hgzf1qpqw2gq#f=homepage">Prototype</a>
-          <a href="https://github.com/marsgs/MealShare.git"> Github </a>
+          <a className="popup-modal-dismiss" href="https://github.com/marsgs/MealShare.git"> Github </a>
           <a className="popup-modal-dismiss">Close</a>
         </div>
       </div>{/* modal-02 End */}
       <div id="modal-03" className="popup-modal mfp-hide">
-        <img className="scale-with-grid" src="images/portfolio/modals/m-judah.jpg" alt="" />
+        <img className="scale-with-grid" src="images/portfolio/ShoeStore.png" alt="" />
         <div className="description-box">
           <h4>ShoeStore</h4>
           <p>This Shopping app allows user to buy shoes but mainly exhange shoes between users.</p>

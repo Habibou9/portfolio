@@ -21,8 +21,8 @@ export default class Header extends Component {
       <div className="banner-text">
         <h1 className="responsive-headline">I'm Habibou Maizoumbou Dan Aouta.</h1>
         <h3>I'm a Charlotte,NC based <span>Developper</span>, <span>UI/UX designer</span> and
-         <span>Security Engineer(CyberSecurity) </span>.
-          Let's <a className="smoothscroll" href="#about">start scrolling</a>
+         <span>Security Engineer(CyberSecurity) </span>. Please feel Free to click on the linkedin
+         Logo to view my linkedin profile. Let's <a className="smoothscroll" href="#about">start scrolling</a>
           and learn more <a className="smoothscroll" href="#about">about me</a>.</h3>
         <hr />
         <ul className="social">
@@ -32,7 +32,7 @@ export default class Header extends Component {
           <li><a href="https://www.linkedin.com/in/habibou"><i className="fa fa-linkedin" /></a></li>
           <li><a href="#"><i className="fa fa-instagram" /></a></li>
           <li><a href="#"><i className="fa fa-dribbble" /></a></li>
-          <li><a type="text/javascript" href="http://cdn.dev.skype.com/uri/skype-uri.js"><i className="fa fa-skype" /></a></li>
+          <li><a href="#"><i className="fa fa-skype" /></a></li>
         </ul>
       </div>
     </div>
@@ -40,11 +40,6 @@ export default class Header extends Component {
       <a className="smoothscroll" href="#about"><i className="icon-down-circle" /></a>
     </p>
   </header> {/* Header End */}
-
-
-          );
-        }
-      });
       <header id="home">
         ....
         ....
