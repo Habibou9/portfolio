@@ -29,7 +29,7 @@ export default class Header extends Component {
         </div>
         <div className="columns download">
           <p>
-            <a href="https://media-exp1.licdn.com/dms/document/C4E2DAQHM2Em1PqJP9A/profile-treasury-document-pdf-analyzed/0?e=1587942000&v=beta&t=Ka3bGZnS8xIPWma3krnLWB0XCA_YjQWmq7Im-LeCQnM" className="button"><i className="fa fa-download" />Download Resume</a>
+            <a href="https://media-exp1.licdn.com/dms/document/C4E2DAQHM2Em1PqJP9A/profile-treasury-document-pdf-analyzed/0?e=1588086000&v=beta&t=uqVKPna-1v-m8B6T3FndJO6S4tsRf7JrumA61al7Lvc" className="button"><i className="fa fa-download" />Download Resume</a>
           </p>
         </div>
       </div> {/* end row */}
