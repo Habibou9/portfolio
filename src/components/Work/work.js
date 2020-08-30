@@ -42,6 +42,15 @@ export default class Header extends Component {
       </div> {/* item end */}
       <div className="row item">
         <div className="twelve columns">
+          <h3>H3 recruiting website</h3>
+          <p className="info">Company project<span>•</span> <em className="date">August 2019 – December 2019</em></p>
+          <p>
+          •	Jobs website for students and under represented communities. Students, Employers and recruiters have the ability to sign up and look for jobs or talents.
+          </p>
+        </div>
+      </div> {/* item end */}
+      <div className="row item">
+        <div className="twelve columns">
           <h3>My Charlotte App</h3>
           <p className="info">Class project <span>•</span> <em className="date">February 2018 – May 2018</em></p>
           <p>
@@ -125,6 +134,19 @@ export default class Header extends Component {
                 <div className="link-icon"><i className="icon-plus" /></div>
               </a>
             </div>
+            <div className="columns portfolio-item">
+              <div className="item-wrap">
+                <a href="#modal-02" title>
+                  <img alt="" src="images/portfolio/H3.png" />
+                  <div className="overlay">
+                    <div className="portfolio-item-meta">
+                      <h5>H3 Prototype UI/UX design</h5>
+                      <p>Web Design</p>
+                    </div>
+                  </div>
+                  <div className="link-icon"><i className="icon-plus" /></div>
+                </a>
+              </div>
           </div> {/* item end */}
           <div className="columns portfolio-item">
             <div className="item-wrap">
@@ -172,6 +194,19 @@ export default class Header extends Component {
           <a className="popup-modal-dismiss" href="https://github.com/marsgs/MealShare.git"> Github </a>
           <a className="popup-modal-dismiss">Close</a>
         </div>
+        <div id="modal-02" className="popup-modal mfp-hide">
+          <img className="scale-with-grid" src="images/portfolio/H3.png" alt="" />
+          <div className="description-box">
+            <h4>H3 Prototype UI/UX design</h4>
+            <p>This website design purpose is to help students and under represented communities finding Jobs. Students, Employers and recruiters have the ability to sign up and look for jobs or talents.
+            </p>
+            <span className="categories"><i className="fa fa-tag" />Web Design</span>
+          </div>
+          <div className="link-box">
+            <a href="https://cloud.indigo.design/share/run/hgzf1qpqw2gq#f=homepage">Prototype</a>
+            <a className="popup-modal-dismiss" href="https://github.com/marsgs/MealShare.git"> Github </a>
+            <a className="popup-modal-dismiss">Close</a>
+          </div>
       </div>{/* modal-02 End */}
       <div id="modal-03" className="popup-modal mfp-hide">
         <img className="scale-with-grid" src="images/portfolio/ShoeStore.png" alt="" />
