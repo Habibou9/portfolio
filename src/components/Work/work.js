@@ -194,20 +194,6 @@ export default class Header extends Component {
           <a className="popup-modal-dismiss" href="https://github.com/marsgs/MealShare.git"> Github </a>
           <a className="popup-modal-dismiss">Close</a>
         </div>
-        <div id="modal-02" className="popup-modal mfp-hide">
-          <img className="scale-with-grid" src="images/portfolio/MealShare.png" alt="" />
-          <div className="description-box">
-            <h4>H3 P</h4>
-            <p>This app Goal is to help People in need of Food to get Connected with Kitchen Soup, Grocerie Stores, Restaurents and Fast Foods.
-            Also, this app purpose is to help reduce food waste as well.
-            </p>
-            <span className="categories"><i className="fa fa-tag" />Web Development</span>
-          </div>
-          <div className="link-box">
-            <a href="https://cloud.indigo.design/share/run/hgzf1qpqw2gq#f=homepage">Prototype</a>
-            <a className="popup-modal-dismiss" href="https://github.com/marsgs/MealShare.git"> Github </a>
-            <a className="popup-modal-dismiss">Close</a>
-          </div>
       </div>{/* modal-02 End */}
       <div id="modal-03" className="popup-modal mfp-hide">
         <img className="scale-with-grid" src="images/portfolio/ShoeStore.png" alt="" />
