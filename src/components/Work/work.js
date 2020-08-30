@@ -42,15 +42,6 @@ export default class Header extends Component {
       </div> {/* item end */}
       <div className="row item">
         <div className="twelve columns">
-          <h3>H3 recruiting website</h3>
-          <p className="info">Company project<span>•</span> <em className="date">August 2019 – December 2019</em></p>
-          <p>
-          •	Jobs website for students and under represented communities. Students, Employers and recruiters have the ability to sign up and look for jobs or talents.
-          </p>
-        </div>
-      </div> {/* item end */}
-      <div className="row item">
-        <div className="twelve columns">
           <h3>My Charlotte App</h3>
           <p className="info">Class project <span>•</span> <em className="date">February 2018 – May 2018</em></p>
           <p>
@@ -134,6 +125,7 @@ export default class Header extends Component {
                 <div className="link-icon"><i className="icon-plus" /></div>
               </a>
             </div>
+          </div> {/* item end */}
           <div className="columns portfolio-item">
             <div className="item-wrap">
               <a href="#modal-03" title>
