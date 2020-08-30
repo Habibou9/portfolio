@@ -195,12 +195,13 @@ export default class Header extends Component {
           <a className="popup-modal-dismiss">Close</a>
         </div>
         <div id="modal-02" className="popup-modal mfp-hide">
-          <img className="scale-with-grid" src="images/portfolio/H3.png" alt="" />
+          <img className="scale-with-grid" src="images/portfolio/MealShare.png" alt="" />
           <div className="description-box">
-            <h4>H3 Prototype UI/UX design</h4>
-            <p>This website design purpose is to help students and under represented communities finding Jobs. Students, Employers and recruiters have the ability to sign up and look for jobs or talents.
+            <h4>H3 P</h4>
+            <p>This app Goal is to help People in need of Food to get Connected with Kitchen Soup, Grocerie Stores, Restaurents and Fast Foods.
+            Also, this app purpose is to help reduce food waste as well.
             </p>
-            <span className="categories"><i className="fa fa-tag" />Web Design</span>
+            <span className="categories"><i className="fa fa-tag" />Web Development</span>
           </div>
           <div className="link-box">
             <a href="https://cloud.indigo.design/share/run/hgzf1qpqw2gq#f=homepage">Prototype</a>
