@@ -134,20 +134,6 @@ export default class Header extends Component {
                 <div className="link-icon"><i className="icon-plus" /></div>
               </a>
             </div>
-            <div className="columns portfolio-item">
-              <div className="item-wrap">
-                <a href="#modal-02" title>
-                  <img alt="" src="images/portfolio/H3.png" />
-                  <div className="overlay">
-                    <div className="portfolio-item-meta">
-                      <h5>H3 Prototype UI/UX design</h5>
-                      <p>Web Design</p>
-                    </div>
-                  </div>
-                  <div className="link-icon"><i className="icon-plus" /></div>
-                </a>
-              </div>
-          </div> {/* item end */}
           <div className="columns portfolio-item">
             <div className="item-wrap">
               <a href="#modal-03" title>
