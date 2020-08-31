@@ -33,6 +33,15 @@ export default class Header extends Component {
       </div> {/* item end */}
       <div className="row item">
         <div className="twelve columns">
+          <h3>H3 UI/UX design</h3>
+          <p className="info">Company Website design <span>•</span> <em className="date">August 2019 – December 2019</em></p>
+          <p>
+            •	This website design purpose is to help students and under represented communities finding Jobs. Students, Employers and recruiters have the ability to sign up and look for jobs or talents.
+          </p>
+        </div>
+      </div> {/* item end */}
+      <div className="row item">
+        <div className="twelve columns">
           <h3>Shoe Store</h3>
           <p className="info">Class project <span>•</span> <em className="date">July 2018 – December 2018</em></p>
           <p>
