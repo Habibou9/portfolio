@@ -196,6 +196,21 @@ export default class Header extends Component {
           <a className="popup-modal-dismiss">Close</a>
         </div>
       </div>{/* modal-02 End */}
+      <div id="modal-02" className="popup-modal mfp-hide">
+        <img className="scale-with-grid" src="images/portfolio/H3.png" alt="" />
+        <div className="description-box">
+          <h4>H3 UI/UX design</h4>
+          <p>This website design purpose is to help students and under represented communities finding Jobs.
+          Students, Employers and recruiters have the ability to sign up and look for jobs or talents. H3 stands for
+          Humble Hungry Hustle.
+          </p>
+          <span className="categories"><i className="fa fa-tag" />Web Development</span>
+        </div>
+        <div className="link-box">
+          <a href="https://xd.adobe.com/view/5829ce86-5345-4ea1-913e-e7e207fd657a-0d7a/">Prototype</a>
+          <a className="popup-modal-dismiss">Close</a>
+        </div>
+      </div>{/* modal-02 End */}
       <div id="modal-03" className="popup-modal mfp-hide">
         <img className="scale-with-grid" src="images/portfolio/ShoeStore.png" alt="" />
         <div className="description-box">
