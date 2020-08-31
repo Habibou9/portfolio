@@ -196,7 +196,7 @@ export default class Header extends Component {
           <a className="popup-modal-dismiss">Close</a>
         </div>
       </div>{/* modal-02 End */}
-      <div id="modal-02" className="popup-modal mfp-hide">
+      <div id="modal-02" className="popup-modal mfp-hide">/* modal-02 duplicate for H3 Start */}
         <img className="scale-with-grid" src="images/portfolio/H3.png" alt="" />
         <div className="description-box">
           <h4>H3 UI/UX design</h4>
@@ -210,7 +210,7 @@ export default class Header extends Component {
           <a href="https://xd.adobe.com/view/5829ce86-5345-4ea1-913e-e7e207fd657a-0d7a/">Prototype</a>
           <a className="popup-modal-dismiss">Close</a>
         </div>
-      </div>{/* modal-02 End */}
+      </div>{/* modal-02 duplicate for H3 End */}
       <div id="modal-03" className="popup-modal mfp-hide">
         <img className="scale-with-grid" src="images/portfolio/ShoeStore.png" alt="" />
         <div className="description-box">
