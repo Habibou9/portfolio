@@ -181,7 +181,7 @@ export default class Header extends Component {
           <a className="popup-modal-dismiss">Close</a>
         </div>
       </div>{/* modal-01 End */}
-      <div id="modal-02" className="popup-modal mfp-hide">
+      <div id="modal-04" className="popup-modal mfp-hide">
         <img className="scale-with-grid" src="images/portfolio/MealShare.png" alt="" />
         <div className="description-box">
           <h4>MealShare</h4>
