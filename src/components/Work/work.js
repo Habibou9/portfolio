@@ -204,7 +204,7 @@ export default class Header extends Component {
           Students, Employers and recruiters have the ability to sign up and look for jobs or talents. H3 stands for
           Humble Hungry Hustle.
           </p>
-          <span className="categories"><i className="fa fa-tag" />Web Development</span>
+          <span className="categories"><i className="fa fa-tag" />Web Design</span>
         </div>
         <div className="link-box">
           <a href="https://xd.adobe.com/view/ce223a42-5d9b-4e88-8821-f027ebb3cd70-9b71/">Prototype</a>
