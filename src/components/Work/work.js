@@ -152,11 +152,11 @@ export default class Header extends Component {
           <div className="columns portfolio-item">
             <div className="item-wrap">
               <a href="#modal-03" title>
-                <img alt="" src="images/portfolio/ShoeStore.png" />
+                <img alt="" src="images/portfolio/MycharlotteApp.png" />
                 <div className="overlay">
                   <div className="portfolio-item-meta">
-                    <h5>ShoeStore App</h5>
-                    <p>Web Development</p>
+                    <h5>My Charlotte App</h5>
+                    <p>Mobile App Development</p>
                   </div>
                 </div>
                 <div className="link-icon"><i className="icon-plus" /></div>
@@ -212,14 +212,14 @@ export default class Header extends Component {
         </div>
       </div>{/* modal-02 duplicate for H3 End */}
       <div id="modal-03" className="popup-modal mfp-hide">
-        <img className="scale-with-grid" src="images/portfolio/ShoeStore.png" alt="" />
+        <img className="scale-with-grid" src="images/portfolio/MycharlotteApp.png" alt="" />
         <div className="description-box">
-          <h4>ShoeStore</h4>
-          <p>This Shopping app allows user to buy shoes but mainly exhange shoes between users.</p>
-          <span className="categories"><i className="fa fa-tag" />Web Development</span>
+          <h4>My Charlotte App</h4>
+          <p>This Charlotte app allows user to be aware of events taking place in Charlotte,Nc.
+          Also, it alows user to be aware of any issue, incidents or important information about Charlotte,NC.</p>
+          <span className="categories"><i className="fa fa-tag" />Mobile App Development</span>
         </div>
         <div className="link-box">
-          <a href="https://github.com/Habibou9/ShoppingWebsite.git">Github</a>
           <a className="popup-modal-dismiss">Close</a>
         </div>
       </div>{/* modal-03 End */}
