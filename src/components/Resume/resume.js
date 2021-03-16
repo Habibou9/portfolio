@@ -16,7 +16,7 @@ export default class Header extends Component {
           <h3>University of North Carolina At Charlotte </h3>
           <p className="info">Master of Science: Computer Science - Information Security and Privacy <span>•</span> <em className="date">December 2020</em></p>
           <p>
-            •	GPA:3.5/4.0
+            •	GPA:3.6/4.0
           </p>
           <p>
             •	Honors: Dean's List Fall 2019
@@ -29,7 +29,7 @@ export default class Header extends Component {
           <p className="info">Bachelor of Science: Computer Science - Software Engineering <span>•</span> <em className="date">May 2019</em></p>
           <p>
               •	GPA:3.12/4.0
-    
+
           </p>
           <p>
 
